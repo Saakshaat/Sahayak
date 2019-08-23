@@ -208,7 +208,7 @@ def open_application(inp):
     d = '/Applications'
     apps = list(map(lambda x: x.split('.app')[0], os.listdir(d)))
     indx = inp.lower().split().index('open')
-    app = inp.lower()[indx + 5:]
+    app = inp.lower()[indx + 4:]
     os.system('open ' + d + '/%s.app' % app.replace(' ', '\\ '))
     return
 
