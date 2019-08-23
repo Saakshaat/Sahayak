@@ -1,3 +1,8 @@
+'''
+Author: Saakshaat Singh
+Contact: saakshaat2001@gmail.com
+'''
+
 import os
 import smtplib
 from selenium import webdriver
