@@ -18,7 +18,6 @@ def get_command():
 
     except sr.UnknownValueError:
         talk('I\'m sorry. I could\'nt catch that. Come again?')
-        command = input('Type it out?')
         assistant(get_command())
     finally:
         return command

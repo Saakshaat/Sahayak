@@ -1,12 +1,12 @@
 '''
-    Author: Saakshaat Singh
+    @Author Saakshaat Singh
     Contact: saakshaatsin@umass.edu
 '''
 
 import random
 from talk import talk
 
-bye = ['See you later, alligator', 'Goodbye', 'Yeah, I have to go too', 'Until Next Time']
+bye = ['See= you later, alligator', 'Goodbye', 'Yeah, I have to go too', 'Until Next Time']
 hello = ['Hello there!', 'Howdy!', 'Welcome', 'Good to see you', 'Hi', 'Hello']
 how_are_you = ['I\'ll live', 'Do you really care?', 'Like you, but better.', 'Somewhere between better and best',
                'If I were any better, I\'d be you.', 'I can\'t complain! It\'s against the Company Policy.',
@@ -25,11 +25,16 @@ fortune_cookie = ['The fortune you seek is in another cookie.',
                   'Ask your mom instead of a cookie.', 'This cookie contains 117 calories in kilobytes.']
 thank_you_replies = ['It is my pleasure.', 'You\'re welcome *blushes*', 'No problemo', 'I\'m here for you', 'Sure!']
 
+flirt = ['I have a boyfriend. I\'m sorry.', 'I\'m a bot and you\'re a creep.',
+         'You\'re kinda hot but nah',
+         'I am a bot. You\'re a human. Society forbids this.', 'You\'re a 3 and I\'m a 110100100.', 'Wink Wink',
+         'No, but we can be friends']
+
 
 def intro():
     talk('I can do the following and much more')
     print("""
-        * Just talk to you >_<
+        * Just talk to you >_<n
         * Search stuff on the web :D
         * Look for stuff on Youtube
         * Send Emails .-.

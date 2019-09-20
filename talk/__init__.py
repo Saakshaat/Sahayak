@@ -5,7 +5,7 @@ import os
 
 
 def talk(audio):
-    tts = gTTS(audio, lang='en-us', slow=False)
+    tts = gTTS(audio, lang='en-ca', slow=False)
     print('>', audio)
     file = str(time.time()) + "audio.mp3"
     tts.save('Audios/' + file)
